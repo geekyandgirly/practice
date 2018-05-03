@@ -27,6 +27,7 @@ public class AtmSum {
     			
     			if (sum == 0) {
     				List<Node> newList = new ArrayList();
+    				lists.add(newList);
     				getLists(sum, Arrays.copyOfRange(denom, 1, denom.length-1), lists, newList);
     			} else {
     				getLists(sum, Arrays.copyOfRange(denom, 1, denom.length-1), lists, list);
