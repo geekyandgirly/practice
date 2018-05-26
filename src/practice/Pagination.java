@@ -28,7 +28,7 @@ public class Pagination {
 
 		@Override
 		public int compare(Listing o1, Listing o2) {
-			// TODO Auto-generated method stub
+			// Can x10 then compare if accuracy is critical, or use Float.compare. I don't think in this use case it's neccessary.
 			if (o1.score < o2.score) {
 				return 1;
 			} else if (o1.score > o2.score) {
