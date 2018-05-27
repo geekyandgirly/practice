@@ -2,8 +2,6 @@ package practice;
 
 import java.util.LinkedList;
 
-import practice.ArrayQueue.ArrayQueueException;
-
 /**
  * Implement a queue using int[] with size limit to 10. queue size is not limited.
  * @author luping
